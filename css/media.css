@@ -1,0 +1,28 @@
+@media(max-width: 1199px){
+/* large*/
+header .row{
+	min-height: 650px;
+}
+}
+
+@media(max-width: 991px){
+/* md */
+header .row{
+	min-height: 550px;
+}
+}
+
+@media(max-width: 767px){
+/* sm */
+header .row{
+	min-height: 450px;
+}
+.banner {
+    text-align: center;
+}
+}
+
+@media(max-width: 575px){
+/* xs */
+}
+

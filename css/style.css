@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #80A7A6;
+}
+
+header{
+    background-image: url(../images/banner.jpg);
+    position: relative;
+}
+.overlay{
+     background-color: #0f5f5edb;
+     position: absolute;
+     width: 100%;
+     height: 100%;
+     top: 0;
+     left: 0;
+}
+.tel-number{
+        color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+    display: inline-block;
+    vertical-align: middle;
+    padding-top: 2px;
+    border-left: 1px solid #ffffffa6;
+    padding-left: 10px;
+}
+
+.navbar .container{
+    
+border-bottom: 1px solid #ffffffa6;
+    
+padding: 15px 0;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 0.5);
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding: 6px 12px;
+}
+
+.btn-highlight{
+    
+background-color: #6B7F80;
+    
+color: #fff !important;
+}
+
+.btn-highlight:hover{
+    background-color: #6FB048;
+}
+
+header .row{
+    min-height: 800px;
+    align-items: center;
+}
+
+.banner{}
+.banner h1{
+    font-size: 40px;
+    color: white;
+}
+.banner p{
+    color: #fff;
+}
+.btn-custom{
+    background-color: #6FB048;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 10px 25px;
+    border-radius: 0;
+    font-weight: 600;
+    font-size: 16px;
+    color: #fff;
+}
+
+.btn-custom:hover{
+    background-color: #83A7A5;
+    color: #fff;
+}
+
+
+/**** heading ****/
+.heading{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.heading h2{
+    color: #0f5f5e;
+    font-weight: 600;
+    margin: 0;
+}
+.heading span{
+    background: #6FB048;
+    width: 70px;
+    height: 1px;
+    display: inline-block;
+    margin-bottom: 2px;
+}
+.heading p{}
+
+
+.feature-section{
+    padding: 80px 0;
+}
+.feature{
+    padding: 26px 0px;
+}
+.feature h3{
+    font-size: 20px;
+    color: #0f5f5e;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.feature img{
+    margin-bottom: 30px;
+}
+.feature p{}
+
